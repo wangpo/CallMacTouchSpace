@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Base.lproj/MainMenu.nib</key>
 		<data>
-		ZpmF4r2YH8pi4Uj4DQgROx3x+Bk=
+		kM4mSUD1hyZtakPow2l6abYA+DY=
 		</data>
 		<key>Resources/MasterViewController.nib</key>
 		<data>
@@ -21,13 +21,21 @@
 	<dict>
 		<key>Resources/Base.lproj/MainMenu.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			kM4mSUD1hyZtakPow2l6abYA+DY=
+			</data>
 			<key>hash2</key>
 			<data>
-			mNSAsBdtpU1AhlQRinnoHGsc6VrgvGVeq2c4ygDDwUk=
+			BeAeL3G9YaL6u3WoAanWJf+m8swLmcXxgikbLIcfi5Q=
 			</data>
 		</dict>
 		<key>Resources/MasterViewController.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			tpU5W08YoA0ZwerUH18LcqMAX+Q=
+			</data>
 			<key>hash2</key>
 			<data>
 			+xTi5PWkqyWOMdj8fMt2YQv+Iyd6rQPab34HrR29L58=
@@ -35,6 +43,10 @@
 		</dict>
 		<key>Resources/welcome.png</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			in5wesD+kL/lgjZ42DUxk8hTcTQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			auUAjsxg/QE9AZlOumLyLyCU2IH+WZkObTXCrQeVurg=

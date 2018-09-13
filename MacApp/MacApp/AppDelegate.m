@@ -23,7 +23,18 @@
     self.masterViewController = [[MasterViewController alloc] initWithNibName:@"MasterViewController" bundle:nil];
     [self.window.contentView addSubview:self.masterViewController.view];
     self.masterViewController.view.frame = self.window.contentView.bounds;
-}   
+}
+
+- (BOOL)applicationShouldHandleReopen:(NSApplication *)sender hasVisibleWindows:(BOOL)flag
+{
+    if (flag) {
+        return NO;
+    }
+    else {
+        [self.window makeKeyAndOrderFront:self];
+        return YES;
+    }
+}
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application

@@ -39,7 +39,7 @@
     
     _textField = [[NSTextField alloc] initWithFrame:CGRectMake(20, 220, 300, 30)];
     _textField.textColor = [NSColor redColor];
-    _textField.stringValue = @"ws://localhost:8080";
+    _textField.stringValue = @"ws://10.90.90.50:4649";
     [self.view addSubview:_textField];
     
     _connectBtn = [NSButton buttonWithTitle:@"" target:self action: @selector(buttonAction:)];
